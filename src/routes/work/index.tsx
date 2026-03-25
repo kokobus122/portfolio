@@ -83,7 +83,7 @@ function RouteComponent() {
                     width={1920}
                     height={1080}
                     alt={work.title}
-                    className="aspect-video w-full object-cover rounded-t-md"
+                    className="aspect-video w-full object-cover rounded-t-lg"
                   />
                 </CardContent>
                 <CardHeader>

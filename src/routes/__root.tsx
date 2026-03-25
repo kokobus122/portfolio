@@ -23,11 +23,14 @@ export const Route = createRootRoute({
       {
         title: "koko",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:title", content: "Bumflix | Clips, Uploader & Comment" },
       {
         property: "og:description",
-        content:
-          "Software developer portfolio of koko",
+        content: "Software developer portfolio of koko",
       },
+      { property: "og:image", content: "/thumbnail.png" },
+      { property: "og:url", content: "https://portfolio-ashen-tau-93.vercel.app/" },
     ],
     links: [
       {
@@ -35,8 +38,8 @@ export const Route = createRootRoute({
         href: appCss,
       },
       {
-        rel: 'icon',
-        href: '/logo2.svg',
+        rel: "icon",
+        href: "/logo2.svg",
       },
     ],
   }),

@@ -24,10 +24,10 @@ export const Route = createRootRoute({
         title: "koko",
       },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "Bumflix | Clips, Uploader & Comment" },
+      { property: "og:title", content: "koko" },
       {
         property: "og:description",
-        content: "Software developer portfolio of koko",
+        content: "koko's personal portfolio",
       },
       { property: "og:image", content: "/thumbnail.png" },
       { property: "og:url", content: "https://portfolio-ashen-tau-93.vercel.app/" },

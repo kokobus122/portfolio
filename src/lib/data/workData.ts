@@ -158,14 +158,14 @@ export const workData: Work[] = [
     title: "GDPL",
     titledesc: "Platformer level leaderboard for the game Geometry Dash.",
     description:
-      "A platformer level leaderboard for the popular game Geometry Dash. Data is manually inputted by users and stored in a json database, and the website features progression tracking for various difficulty tiers to allow users to stay engaged in the list.",
+      "A platformer level leaderboard for the popular game Geometry Dash. Data is manually inputted by users and stored in a json database, and the website features progression tracking for various difficulty tiers to allow users to stay engaged in the list. Now that I look back at this project, I realize how overkill using Next.js for this stack was since I never implemented any login or database functionality, but it was fun learning the page router along with their documentation. If I would redo the same project in the future, I would probably use Astro.js for a more static site approach.",
     images: {
       image1:
         "https://utfs.io/f/8df6077f-0378-4d98-8a5b-d29b8f2113c5-755f02.jpg",
       image2:
         "https://utfs.io/f/fbbe7a88-58d8-4e92-9ce5-bb8520ac96f7-755f1p.jpg",
     },
-    techStack: ["Next.js", "Node.js", "Express", "MongoDB"],
+    techStack: ["Next.js", "DaisyUI", "TailwindCSS"],
     githubLink: "https://github.com/kokobus122/gdpl",
     liveLink: "https://gdpl.vercel.app/",
     date: "2023",

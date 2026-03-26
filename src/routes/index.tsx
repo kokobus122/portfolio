@@ -16,11 +16,13 @@ function App() {
         <h1 className="font-bold text-primary py-2 text-xl">About me</h1>
         <div>
           <p>
-            I&apos;m a full-stack developer with a passion for building web
-            applications and learning new technologies. As of now, I study web
-            development and try to expand my knowledge by taking on new
-            challenges in backend. Apart from coding, I enjoy playing video
-            games with friends, listen to music, and occassionally play golf.
+            I&apos;m a full-stack developer from Sweden with a passion for
+            building web applications and learning new technologies. As of now,
+            I study web development with my main focus being on backend
+            development. My motivation to keep creating new projects is the
+            thought of solving real-world problems that matter. Apart from
+            coding, I enjoy playing video games with friends, listen to music,
+            and occassionally play golf.
           </p>
         </div>
       </article>
@@ -29,17 +31,27 @@ function App() {
         <h1 className="font-bold text-primary py-2 text-xl">Work</h1>
         <div>
           <p>
-            Most of my projects are built with Next.js/TanStack Start using TypeScript and
-            Tailwind CSS. The main focus of my work is to create accessible and
-            user-friendly applications available to everyone.
+            Most of my projects are built with Next.js/TanStack Start using
+            TypeScript and Tailwind CSS. The main focus of my work is to create
+            accessible and user-friendly applications available to everyone. You
+            can check out the different tech stacks i've used on the work page.
+            View some of my work below.
           </p>
-          <p className="leading-loose">View some of my work below.</p>
         </div>
         <Link to="/work">
-          <Button variant="default" size="sm" className="mt-4">
+          <Button variant="default" size="sm" className="my-4">
             Previous work <ChevronRight />
           </Button>
         </Link>
+        <p>
+          Apart from working on my own projects, I also do some freelance work
+          and am open to new opportunities. Feel free to{" "}
+          <Link to="/contact" className="text-primary hover:underline">
+            reach out
+          </Link>{" "}
+          if you have any questions about my work or just web development in
+          general!
+        </p>
       </article>
 
       <article>
@@ -55,8 +67,8 @@ function App() {
           <li>
             <p>
               <strong>Technologies:</strong>
-              <br /> React.js, Node.js, Next.js, TanStack Start, Astro.js, AWS, Supabase,
-              Linux, Git, Docker, Firebase
+              <br /> React.js, Node.js, Next.js, TanStack Start, Astro.js, AWS,
+              Supabase, Linux, Git, Docker, Firebase
             </p>
           </li>
           <li>

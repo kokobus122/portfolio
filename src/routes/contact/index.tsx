@@ -11,7 +11,10 @@ function RouteComponent() {
         <h1 className="text-4xl font-bold">Contact me</h1>
       </section>
       <article className="mb-2">
-        <p>Have any questions about my work or just want to say hello? Feel free to reach out.</p>
+        <p>
+          Have any questions about my work or just want to say hello? Feel free
+          to reach out.
+        </p>
         <h1 className="font-bold text-primary py-2 text-xl">Mail</h1>
         <div>
           <p>
@@ -29,12 +32,10 @@ function RouteComponent() {
       <article className="mb-4">
         <h1 className="font-bold text-primary py-2 text-xl">Discord</h1>
         <div>
-          <div>
-            I&apos;m also active on discord, tag:{" "}
-            <p className="rounded-md border border-zinc-800 bg-card text-card-foreground shadow-sm inline px-2 py-1 font-mono">
-              kokobus#1234
-            </p>
-          </div>
+          I&apos;m also active on discord, tag:{" "}
+          <p className="rounded-md border border-zinc-800 bg-card text-card-foreground shadow-sm inline px-2 py-1 font-mono">
+            kokobus
+          </p>
         </div>
       </article>
     </>
